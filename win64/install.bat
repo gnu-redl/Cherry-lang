@@ -1,7 +1,7 @@
 @echo off
 
 cd %~dp0
-move redl %appdata%
+move lang %appdata%
 
 set Key=HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
 set FolderToAdd=C:\MinGW\bin
