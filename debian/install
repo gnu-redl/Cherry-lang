@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo apt install gcc gpp g++ -y
+sudo mv -r lang /var/
+sudo echo "PATH=\$PATH:/var/lang/" >> ~/.bashrc
+sudo echo "export PATH" >> ~/.bashrc
