@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
 	if(argv[1] == version) {
 		cout << "--------------------------------" << endl;
 		cout << "|                              |" << endl;
-		cout << "| CherryLang 0.03 BETA for WIN |" << endl;
+		cout << "|CherryLang 0.03 BETA for LINUX|" << endl;
 		cout << "|                              |" << endl;
 		cout << "--------------------------------" << endl;
 		cout << endl;
